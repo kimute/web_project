@@ -8,30 +8,27 @@
 ・Django:2.2
 ・djangorestframework: 3.3.1
 # Model
-api_blog/models.py
+### api_blog/models.py
+### 自分で定義してモデルを追加
+    (追加されていることをDjango administrationで確認する)
+    class user
+　　   name 
+　　   e-mail
 
-　自分で定義してモデルを追加
-　(追加されていることをDjango administrationで確認する)
-　class user
-　　name 
-　　e-mail
-
-　class Entry
-　　記事を表示
+　   class Entry
+　　   記事を表示
 　
-　settings.pyにapi_blogを登録
-
-　動作確認(rest apiを組む前に実施)
-    # admin用
-　  python manage.py　createsuperuser
-
+　   settings.pyにapi_blogを登録
+    動作確認(rest apiを組む前に実施)
+ # admin用
+ 
+    python manage.py　createsuperuser
     python manage.py runserver
 
 # Serializer
 
-  field : APIとして出力したいフィールドname,mail
+### field : APIとして出力したいフィールドname,mail
 
 # ViewSet
-
-  ## class UserViewset
-  ###    
+### class UserViewset
+###    
