@@ -9,7 +9,7 @@
 ### ・djangorestframework: 3.3.1
 # Model
 ### api_blog/models.py
-### 自分で定義してモデルを追加
+### 自分で定義したモデルを追加
 ### (追加されていることをDjango administrationで確認する)
 ## class user
 ###   name 
