@@ -9,6 +9,7 @@ from .serializer import UserSerializer, EntrySerializer
 Parameter
 ------------------
 queryset:Djangoのmodelのクエリセットを指定
+         フィタリングも可能
 serializer_class:serializerに定義したserializerを指定
 '''
 
